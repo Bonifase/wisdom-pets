@@ -13,7 +13,7 @@ SECRET_KEY = 'o9tef$zg9-^%b@ypauvoyx%r2y@mfkyj3e=@mw53gc@k4xm&3&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['wisdompet.herokuapp.com']
 
 
 # Application definition
