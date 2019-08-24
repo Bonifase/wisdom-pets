@@ -2,6 +2,7 @@ venv
 db.sqlite3
 pet_data.csv
 .vscode
+.env
 .DS_Store
 *.pyc
 *__pycache__
