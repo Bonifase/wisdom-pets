@@ -1,0 +1,7 @@
+venv
+db.sqlite3
+pet_data.csv
+.vscode
+.DS_Store
+*.pyc
+*__pycache__
