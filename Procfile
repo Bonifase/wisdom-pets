@@ -1,1 +1,1 @@
-web: gunicorn wisdompets.wsgi --log-file -
+web: gunicorn --chdir wisdompets --log-file - wisdompets.wsgi --log-file -

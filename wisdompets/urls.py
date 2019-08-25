@@ -8,4 +8,4 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.home, name="home"),
     url(r'^adoptions/(\d+)/', views.pet_detail, name="pet_detail"),
-] + static(settings.STATIC_URL, documen_root=settings.STATIC_ROOT)
+]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
